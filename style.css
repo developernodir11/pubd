@@ -118,7 +118,7 @@ header {
 }
 .btn-p {
   color: rgba(255, 255, 255, 1);
-  border: 2px solid rgba(255, 255, 255, 1);
+  /* border: 2px solid rgba(255, 255, 255, 1); */
   padding: 21px 34px;
   font-family: Orbitron;
   font-weight: 400;

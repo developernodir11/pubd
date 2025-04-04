@@ -1,0 +1,324 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.another {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(87, 184, 255, 1) 50%
+  );
+}
+header {
+  font-family: "Orbitron", sans-serif;
+}
+.hibek {
+  color: rgba(255, 255, 255, 1);
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  border: 2px solid rgba(255, 255, 255, 1);
+  padding: 16px 32px;
+  cursor: pointer;
+  width: auto;
+  display: inline-block;
+}
+.menu_link:hover {
+  color: rgba(250, 196, 34, 1);
+  transition: 0.5s;
+}
+.menu_link {
+  color: rgba(255, 255, 255, 1);
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  transition: 0.5s;
+}
+.site_menu {
+  display: flex;
+  gap: 60px;
+}
+.site_moon {
+  display: flex;
+  gap: 24px;
+}
+#hamburger {
+  color: #ffffff;
+  font-size: 25px;
+  display: none;
+}
+.zorkubro {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(87, 184, 255, 1);
+}
+.aya {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 209px;
+  padding-bottom: 14px;
+}
+.section_h {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+.section_h {
+  color: rgba(255, 255, 255, 1);
+}
+.color {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(87, 184, 255, 1) 50%
+  );
+  display: flex;
+}
+.Lorem-p {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #dfdfdfcc;
+}
+.btn-p {
+  color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(255, 255, 255, 1);
+  padding: 21px 34px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  background-color: rgba(87, 184, 255, 1);
+  cursor: pointer;
+  width: auto;
+  display: inline-block;
+}
+.button {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-top: 53px;
+}
+.p-nam {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+.rasm {
+  padding-top: 214px;
+}
+.maymun {
+  width: 250px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/team.svg);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-rep;
+}
+.yellow_place {
+  background-color: rgba(253, 208, 74, 1);
+}
+.yellow_h {
+  display: flex;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 27px;
+  padding-top: 130px;
+}
+.yellow_p {
+  padding-top: 27px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(85, 85, 85, 1);
+}
+.yellow_logo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 44px;
+  gap: 32px;
+}
+.last_page {
+  background-image: url(./images/orqa_fon.png);
+}
+.suvdekbul {
+  display: flex;
+  gap: 30px;
+}
+.var {
+  padding-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+.alyo {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  text-transform: capitalize;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.section_p2 {
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #57b8ff;
+}
+@media (max-width: 635px) {
+  .Lorem-p {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+  }
+}
+@media (max-width: 1310px) {
+  section {
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 700px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .bitta {
+    flex-wrap: wrap;
+    padding: 60px;
+    text-align: left;
+  }
+  .rasm {
+    flex-wrap: wrap;
+    padding: 60px;
+    text-align: left;
+  }
+  .maymun {
+    width: 100%; /* Rasm konteynerga moslashadi */
+    height: auto;
+  }
+}
+@media (max-width: 850px) {
+  .site_menu {
+    flex-wrap: wrap;
+    padding: 90px;
+    text-align: center;
+    justify-content: center;
+  }
+  .logo {
+    text-align: center;
+  }
+}
+@media (max-width: 525px) {
+  nav {
+    flex-wrap: wrap;
+    padding: 60px;
+    text-align: center;
+  }
+  .maymun {
+    width: 300px;
+  }
+}
+@media (max-width: 850px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 100%;
+    padding: 20px 0;
+  }
+  #hamburger {
+    display: block;
+  }
+  .site_items {
+    display: none;
+  }
+  .active {
+    display: flex;
+  }
+}
+@media (max-width: 1033px) {
+  nav {
+    flex-wrap: wrap;
+    padding: 60px;
+    justify-content: center;
+  }
+  .site_moon {
+    padding-top: 32px;
+  }
+  .logo {
+    padding-right: 24px;
+  }
+}
+@media (max-width: 400px) {
+  nav {
+    padding: 0 15px;
+    width: 100%;
+  }
+}
+@media (max-width: 1330px) {
+  .yellow_logo {
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-around;
+  }
+}
